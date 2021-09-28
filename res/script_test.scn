@@ -1,0 +1,56 @@
+Scene: Untitled
+env_amb_color: [1, 1, 1, 1]
+env_skybox: ""
+Entities:
+  - Entity: Entity
+    uid: [852525540, 1687415309, 2557981082, 1860117090]
+    active: true
+    static: false
+    view_mask: 18446744073709551615
+    parent: [0, 0, 0, 0]
+    pos: [0, 0, 0]
+    scale: [1, 1, 1]
+    rot: [0, 0, 0, 1]
+    components:
+      []
+    script:
+      []
+  - Entity: Entity
+    uid: [865068517, 577318344, 2674260326, 1722702064]
+    active: true
+    static: false
+    view_mask: 18446744073709551615
+    parent: [852525540, 1687415309, 2557981082, 1860117090]
+    pos: [0, 0, 0]
+    scale: [1, 1, 1]
+    rot: [0, 0, 0, 1]
+    components:
+      []
+    script:
+      - class: script
+  - Entity: child1
+    uid: [2958612994, 2647124670, 4184726499, 2748515659]
+    active: true
+    static: false
+    view_mask: 18446744073709551615
+    parent: [865068517, 577318344, 2674260326, 1722702064]
+    pos: [0, 0, 0]
+    scale: [1, 1, 1]
+    rot: [0, 0, 0, 1]
+    components:
+      []
+    script:
+      []
+  - Entity: child2
+    uid: [3372290327, 3139148486, 61471709, 284251306]
+    active: true
+    static: false
+    view_mask: 18446744073709551615
+    parent: [865068517, 577318344, 2674260326, 1722702064]
+    pos: [0, 0, 0]
+    scale: [1, 1, 1]
+    rot: [0, 0, 0, 1]
+    components:
+      []
+    script:
+      []

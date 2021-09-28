@@ -17,6 +17,8 @@ Entities:
         mesh: Sphere
       - Component: 2
         material: pbr
+    script:
+      []
   - Entity: Cube (1)
     uid: [1400282445, 2539254531, 1237464579, 1897811857]
     active: true
@@ -35,6 +37,8 @@ Entities:
       - Component: 8
         mass: 1
         friction: 0.5
+    script:
+      []
   - Entity: Cube (2)
     uid: [2278826814, 575420708, 1424792874, 3214824675]
     active: true
@@ -54,6 +58,8 @@ Entities:
         shape: 0
         center: [0, 0, 0]
         size: [1, 1, 1]
+    script:
+      []
   - Entity: Audio
     uid: [475199151, 3866549533, 808755399, 1020744480]
     active: true
@@ -69,6 +75,8 @@ Entities:
         volume: 1
         pitch: 1
         loop: false
+    script:
+      []
   - Entity: Particles
     uid: [3924579556, 2624839655, 1849585852, 332250944]
     active: true
@@ -107,6 +115,8 @@ Entities:
       - Component: 3
         mesh_group: ""
         mesh: Plane
+    script:
+      []
   - Entity: Particles
     uid: [2604799160, 1957353781, 568189493, 1247167554]
     active: true
@@ -145,6 +155,8 @@ Entities:
       - Component: 3
         mesh_group: ""
         mesh: Plane
+    script:
+      []
   - Entity: Directional Light
     uid: [4022663197, 3646530176, 2222185782, 1077532849]
     active: true
@@ -165,6 +177,8 @@ Entities:
         shadowStrength: 0.899999976
         shadowBias: 0.00400000019
         pcf: 4
+    script:
+      []
   - Entity: RootNode
     uid: [186694011, 1344920229, 3883134295, 1663786131]
     active: true
@@ -179,6 +193,8 @@ Entities:
         anims:
           - resource: annim
             coeff: 1
+    script:
+      []
   - Entity: Animation
     uid: [3273917542, 2770024677, 2405624801, 664250940]
     active: true
@@ -189,6 +205,8 @@ Entities:
     scale: [1, 1, 1]
     rot: [-8.14603425e-08, -0, -0, 1]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:Hips
     uid: [1176790310, 3594919436, 2257445582, 1682525149]
@@ -201,6 +219,8 @@ Entities:
     rot: [0.0440990962, 0.0800038725, -0.000570769305, 0.995818436]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:Spine
     uid: [504518408, 2902866515, 223783071, 146551837]
     active: true
@@ -211,6 +231,8 @@ Entities:
     scale: [0.99999994, 0.999999881, 0.99999994]
     rot: [-0.0397096053, -0.0365697928, 0.0083715925, 0.998506784]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:Spine1
     uid: [2085836971, 3630857099, 2232489389, 3777110321]
@@ -223,6 +245,8 @@ Entities:
     rot: [-0.0929625854, -0.0764230862, 0.018244477, 0.992564678]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:Spine2
     uid: [3007441541, 3879310488, 1988527908, 660410469]
     active: true
@@ -233,6 +257,8 @@ Entities:
     scale: [1, 0.999999881, 0.99999994]
     rot: [-0.0929626003, -0.0764230937, 0.018244464, 0.992564678]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:Neck
     uid: [3140064350, 1357545076, 200367745, 1871037590]
@@ -245,6 +271,8 @@ Entities:
     rot: [-0.0251718052, 0.129425615, 0.005854649, 0.991252363]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:Head
     uid: [2982928339, 3979179178, 2449768858, 954549434]
     active: true
@@ -255,6 +283,8 @@ Entities:
     scale: [1, 0.99999994, 1]
     rot: [0.0988486931, 0.0880286247, 0.0569166616, 0.98956579]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:HeadTop_End
     uid: [3579894357, 2078176857, 14801047, 3783285464]
@@ -267,6 +297,8 @@ Entities:
     rot: [-2.28408026e-09, -0, -0, 1]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:HeadTop_End_end
     uid: [193796264, 2627160118, 3919761905, 814159369]
     active: true
@@ -277,6 +309,8 @@ Entities:
     scale: [1, 1, 1]
     rot: [-2.28408026e-09, -0, -0, 1]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:LeftShoulder
     uid: [3648138724, 1436413961, 215178746, 3420604797]
@@ -289,6 +323,8 @@ Entities:
     rot: [0.536252797, 0.458749622, -0.601260781, -0.374789685]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:LeftArm
     uid: [1830761847, 258948269, 1173581909, 1101958008]
     active: true
@@ -299,6 +335,8 @@ Entities:
     scale: [0.99999994, 1, 1]
     rot: [-0.453798413, 0.0829471722, -0.00959936436, 0.887183547]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:LeftForeArm
     uid: [2518404768, 406698901, 2532902393, 2168075983]
@@ -311,6 +349,8 @@ Entities:
     rot: [-0.0438129269, -0.00307330047, -0.43919462, 0.897317708]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:LeftHand
     uid: [3386710773, 2708226242, 2848659890, 3742034415]
     active: true
@@ -321,6 +361,8 @@ Entities:
     scale: [0.99999994, 0.99999994, 1]
     rot: [0.196348533, 0.00755336229, 0.102695636, 0.975112259]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:LeftHandThumb1
     uid: [2647965406, 1091887695, 1212623904, 374802647]
@@ -333,6 +375,8 @@ Entities:
     rot: [-0.286609322, -0.128270149, -0.253541112, 0.914941967]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:LeftHandThumb2
     uid: [1315104536, 3993207012, 1631372085, 3205216026]
     active: true
@@ -343,6 +387,8 @@ Entities:
     scale: [0.99999994, 0.99999994, 0.99999994]
     rot: [0.00843382441, -0.00503663998, 0.0128144566, 0.999869645]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:LeftHandThumb3
     uid: [3176907059, 2344203973, 2272225722, 3720700766]
@@ -355,6 +401,8 @@ Entities:
     rot: [-0.000168264974, -0.00214405358, -0.0783402622, 0.9969244]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:LeftHandThumb4
     uid: [1812529299, 3563907654, 4061735499, 1432173278]
     active: true
@@ -365,6 +413,8 @@ Entities:
     scale: [1, 1.00000024, 1]
     rot: [2.06679083e-08, -3.64733836e-07, -1.85760655e-07, 1]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:LeftHandThumb4_end
     uid: [103307378, 4060431307, 4242839638, 1842916972]
@@ -377,6 +427,8 @@ Entities:
     rot: [2.06679083e-08, -3.64733836e-07, -1.85760655e-07, 1]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:LeftHandIndex1
     uid: [1399457116, 3978243540, 645121952, 1408366310]
     active: true
@@ -387,6 +439,8 @@ Entities:
     scale: [1, 1, 1]
     rot: [-0.367111593, -0.0865880176, -0.107130669, 0.919921041]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:LeftHandIndex2
     uid: [3337994801, 856479600, 2405028544, 396004936]
@@ -399,6 +453,8 @@ Entities:
     rot: [-0.545672297, 0.0114398049, -0.0499221236, 0.836432219]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:LeftHandIndex3
     uid: [4075017895, 357578052, 2183091490, 2910204956]
     active: true
@@ -409,6 +465,8 @@ Entities:
     scale: [0.99999994, 0.999999881, 0.999999821]
     rot: [3.01493884e-07, 5.41001064e-05, 0.00150895794, 0.999998927]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:LeftHandIndex4
     uid: [2403403077, 3366289286, 3896635781, 4015843838]
@@ -421,6 +479,8 @@ Entities:
     rot: [3.11611252e-08, 2.91392226e-08, -2.99876568e-08, 1]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:LeftHandIndex4_end
     uid: [4186839401, 1744286083, 3501116541, 433682341]
     active: true
@@ -431,6 +491,8 @@ Entities:
     scale: [1, 1, 0.999999881]
     rot: [3.11611252e-08, 2.91392226e-08, -2.99876568e-08, 1]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:LeftHandRing1
     uid: [834854850, 3999828636, 1850543985, 3383518933]
@@ -443,6 +505,8 @@ Entities:
     rot: [-0.540472209, 0.00588765554, -0.0756886974, 0.837929785]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:LeftHandRing2
     uid: [1506127063, 3217821508, 418703006, 122292204]
     active: true
@@ -453,6 +517,8 @@ Entities:
     scale: [1, 0.99999994, 1]
     rot: [-0.657707632, -0.000813330757, -0.0500461012, 0.75160867]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:LeftHandRing3
     uid: [3136673150, 2687239812, 1240532370, 987326935]
@@ -465,6 +531,8 @@ Entities:
     rot: [-2.66202119e-06, 0.000485163968, 0.0110843917, 0.999938488]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:LeftHandRing4
     uid: [1084437605, 994343799, 537206705, 783771418]
     active: true
@@ -475,6 +543,8 @@ Entities:
     scale: [1.00000024, 1, 1]
     rot: [1.71912831e-08, 1.54245665e-08, -1.06720259e-08, 1]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:LeftHandRing4_end
     uid: [4204111501, 2609299278, 1617063219, 351476171]
@@ -487,6 +557,8 @@ Entities:
     rot: [1.71912831e-08, 1.54245665e-08, -1.06720259e-08, 1]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:RightShoulder
     uid: [528715849, 865494476, 1899080996, 5299863]
     active: true
@@ -497,6 +569,8 @@ Entities:
     scale: [0.999999821, 0.999999762, 0.999999821]
     rot: [-0.662249386, 0.339395016, -0.510978401, 0.430276662]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:RightArm
     uid: [2199672388, 3637396682, 3700302178, 3938900667]
@@ -509,6 +583,8 @@ Entities:
     rot: [-0.409542471, -0.117434777, -0.186439186, 0.885282278]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:RightForeArm
     uid: [620815351, 3308943797, 3532360739, 847442827]
     active: true
@@ -519,6 +595,8 @@ Entities:
     scale: [0.999999881, 1, 0.999999881]
     rot: [-0.037528526, -0.0334519856, 0.426958174, 0.90287286]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:RightHand
     uid: [2722440502, 370926092, 623688171, 350475119]
@@ -531,6 +609,8 @@ Entities:
     rot: [0.0693135113, 0.0505894311, -0.0319719762, 0.995798349]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:RightHandThumb1
     uid: [3237220132, 1298507106, 3420976666, 3044993633]
     active: true
@@ -541,6 +621,8 @@ Entities:
     scale: [0.999999881, 0.99999994, 0.999999881]
     rot: [-0.327365488, 0.0544745438, 0.248781756, 0.909929693]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:RightHandThumb2
     uid: [3893073338, 3460540641, 3769373533, 2694376176]
@@ -553,6 +635,8 @@ Entities:
     rot: [-0.00538599305, -0.00472592795, -0.130477816, 0.991425335]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:RightHandThumb3
     uid: [2767795396, 1703876804, 2765645112, 1093684289]
     active: true
@@ -563,6 +647,8 @@ Entities:
     scale: [0.999999881, 0.999999881, 0.999999881]
     rot: [6.94485425e-06, -0.000155601752, 0.0315113105, 0.999503434]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:RightHandThumb4
     uid: [631728484, 1063117660, 2017641602, 3891480072]
@@ -575,6 +661,8 @@ Entities:
     rot: [3.47472792e-07, -7.82987115e-07, -4.47114473e-07, 1]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:RightHandThumb4_end
     uid: [1047377421, 3949936141, 3836744039, 3335019026]
     active: true
@@ -585,6 +673,8 @@ Entities:
     scale: [1, 1, 1]
     rot: [3.47472792e-07, -7.82987115e-07, -4.47114473e-07, 1]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:RightHandIndex1
     uid: [1737957897, 3770654925, 341846502, 4190489021]
@@ -597,6 +687,8 @@ Entities:
     rot: [-0.214281678, 0.0178241543, 0.123619974, 0.968753755]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:RightHandIndex2
     uid: [1046951539, 4193928747, 3565319253, 2067209342]
     active: true
@@ -607,6 +699,8 @@ Entities:
     scale: [0.999999881, 0.999999881, 1]
     rot: [-0.410662949, -0.00789917074, 0.0128017534, 0.911663234]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:RightHandIndex3
     uid: [2148827453, 4051807940, 2587548378, 748395610]
@@ -619,6 +713,8 @@ Entities:
     rot: [-7.9399706e-07, -0.000235915519, -0.00395406038, 0.999992132]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:RightHandIndex4
     uid: [323294634, 3966344528, 4221586032, 1369921646]
     active: true
@@ -629,6 +725,8 @@ Entities:
     scale: [1, 1, 0.999999821]
     rot: [8.02660409e-08, -7.62287566e-09, 2.09165698e-08, 1]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:RightHandIndex4_end
     uid: [4271343701, 3984202516, 876786023, 331555944]
@@ -641,6 +739,8 @@ Entities:
     rot: [8.02660409e-08, -7.62287566e-09, 2.09165698e-08, 1]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:RightHandRing1
     uid: [1872656040, 1597108973, 2703198563, 4236973067]
     active: true
@@ -651,6 +751,8 @@ Entities:
     scale: [1, 0.999999881, 1]
     rot: [-0.316465616, 0.0293053016, 0.0612336583, 0.946171939]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:RightHandRing2
     uid: [3017734886, 2394928075, 3349858779, 30246190]
@@ -663,6 +765,8 @@ Entities:
     rot: [-0.58595711, 0.00189905567, 0.045108825, 0.809083402]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:RightHandRing3
     uid: [1078999330, 780743220, 1313861276, 1938822717]
     active: true
@@ -673,6 +777,8 @@ Entities:
     scale: [0.99999994, 0.999999821, 0.999999821]
     rot: [-6.41827835e-09, 0.000186105099, -0.0111131035, 0.99993825]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:RightHandRing4
     uid: [2900482244, 1386775996, 4276550212, 2315855926]
@@ -685,6 +791,8 @@ Entities:
     rot: [6.93902678e-08, 8.06991141e-10, -9.82359083e-09, 1]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:RightHandRing4_end
     uid: [921993484, 4092103315, 1220768582, 3844432173]
     active: true
@@ -695,6 +803,8 @@ Entities:
     scale: [1, 1, 1.00000024]
     rot: [6.93902678e-08, 8.06991141e-10, -9.82359083e-09, 1]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:LeftUpLeg
     uid: [3151881094, 1917640439, 3215482988, 75706312]
@@ -707,6 +817,8 @@ Entities:
     rot: [0.0199566577, -0.269451201, -0.962806702, 0.00108456786]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:LeftLeg
     uid: [3244765210, 2374428733, 433049551, 1257750211]
     active: true
@@ -717,6 +829,8 @@ Entities:
     scale: [0.99999994, 1, 1]
     rot: [0.338193685, -0.278540701, 0.0488087237, 0.897584558]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:LeftFoot
     uid: [4006387326, 1820446156, 3001242465, 9142893]
@@ -729,6 +843,8 @@ Entities:
     rot: [-0.512318552, -0.0397037603, 0.0684260875, 0.855144024]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:LeftToeBase
     uid: [297854913, 391707170, 2282192612, 3522703913]
     active: true
@@ -739,6 +855,8 @@ Entities:
     scale: [0.99999994, 0.999999881, 1]
     rot: [-0.320724607, -0.00757716596, 0.0235201661, 0.946850181]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:LeftToe_End
     uid: [2523450051, 2052989005, 3201002609, 1378895726]
@@ -751,6 +869,8 @@ Entities:
     rot: [8.15943402e-09, 5.39142638e-06, 2.72662142e-08, 1]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:LeftToe_End_end
     uid: [2489157944, 3910545649, 2621061617, 4090856008]
     active: true
@@ -761,6 +881,8 @@ Entities:
     scale: [0.99999994, 1, 1.00000024]
     rot: [8.15943402e-09, 5.39142638e-06, 2.72662142e-08, 1]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:RightUpLeg
     uid: [1127082281, 2595873097, 231769767, 2386682835]
@@ -773,6 +895,8 @@ Entities:
     rot: [0.0990271941, 0.111669444, -0.985497832, 0.080731608]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:RightLeg
     uid: [2111289072, 2754950046, 2667444388, 3766334407]
     active: true
@@ -783,6 +907,8 @@ Entities:
     scale: [1, 1.00000012, 1.00000012]
     rot: [0.286618233, -0.0496731438, -0.0196144246, 0.956555188]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:RightFoot
     uid: [3260267971, 2259346003, 2217229137, 172751975]
@@ -795,6 +921,8 @@ Entities:
     rot: [-0.692081094, 0.0409157388, -0.0527500622, 0.718726099]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:RightToeBase
     uid: [3104559266, 560854105, 363166057, 2384432528]
     active: true
@@ -805,6 +933,8 @@ Entities:
     scale: [0.999999881, 1.00000024, 0.999999881]
     rot: [-0.350442916, -0.0703326687, 0.095653668, 0.929028213]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:RightToe_End
     uid: [660096999, 3129487418, 1279517947, 1453324337]
@@ -817,6 +947,8 @@ Entities:
     rot: [3.07962122e-09, 3.87863878e-07, -4.97803505e-08, 1]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:RightToe_End_end
     uid: [2031123008, 2083922449, 1220588140, 816321739]
     active: true
@@ -827,6 +959,8 @@ Entities:
     scale: [1.00000024, 1.00000024, 0.99999994]
     rot: [3.07962122e-09, 3.87863878e-07, -4.97803505e-08, 1]
     components:
+      []
+    script:
       []
   - Entity: Armature
     uid: [1064749355, 1944524815, 3428064497, 3360390391]
@@ -839,6 +973,8 @@ Entities:
     rot: [0, 0, 0, 1]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:Hips001
     uid: [2890175998, 289679351, 1092967962, 3091828705]
     active: true
@@ -849,6 +985,8 @@ Entities:
     scale: [1, 1, 0.999999881]
     rot: [0.0440990962, 0.0800038725, -0.000570769305, 0.995818436]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:Spine001
     uid: [2577810914, 732079652, 2924460738, 1973186248]
@@ -861,6 +999,8 @@ Entities:
     rot: [-0.0397096053, -0.0365697928, 0.0083715925, 0.998506784]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:Spine1001
     uid: [2202026963, 2064659453, 3303274017, 1559167740]
     active: true
@@ -871,6 +1011,8 @@ Entities:
     scale: [0.999999881, 0.999999881, 1]
     rot: [-0.0929625854, -0.0764230862, 0.018244477, 0.992564678]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:Spine2001
     uid: [145096098, 2664180615, 1491491769, 774141032]
@@ -883,6 +1025,8 @@ Entities:
     rot: [-0.0929626003, -0.0764230937, 0.018244464, 0.992564678]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:Neck001
     uid: [3965740531, 391099221, 1573926508, 2404168836]
     active: true
@@ -893,6 +1037,8 @@ Entities:
     scale: [1, 1, 0.999999821]
     rot: [-0.0251718052, 0.129425615, 0.005854649, 0.991252363]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:Head001
     uid: [2565665471, 1228845708, 4052572132, 2284811489]
@@ -905,6 +1051,8 @@ Entities:
     rot: [0.0988486931, 0.0880286247, 0.0569166616, 0.98956579]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:HeadTop_End001
     uid: [2562563667, 2146981611, 1383961641, 105589538]
     active: true
@@ -915,6 +1063,8 @@ Entities:
     scale: [1, 1, 1]
     rot: [-2.28408026e-09, -0, -0, 1]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:HeadTop_End_end001
     uid: [481781327, 3876490434, 1651886223, 1464734716]
@@ -927,6 +1077,8 @@ Entities:
     rot: [-2.28408026e-09, -0, -0, 1]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:LeftShoulder001
     uid: [4139044391, 314771829, 717082307, 849128380]
     active: true
@@ -937,6 +1089,8 @@ Entities:
     scale: [0.999999762, 0.999999702, 0.999999881]
     rot: [0.536252797, 0.458749622, -0.601260781, -0.374789685]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:LeftArm001
     uid: [578935588, 1938965371, 3549563078, 776812610]
@@ -949,6 +1103,8 @@ Entities:
     rot: [-0.453798413, 0.0829471722, -0.00959936436, 0.887183547]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:LeftForeArm001
     uid: [945690979, 1755805920, 2913196905, 1210990078]
     active: true
@@ -959,6 +1115,8 @@ Entities:
     scale: [1, 1, 0.999999821]
     rot: [-0.0438129269, -0.00307330047, -0.43919462, 0.897317708]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:LeftHand001
     uid: [4169274453, 2858624966, 2853581270, 3787294458]
@@ -971,6 +1129,8 @@ Entities:
     rot: [0.196348533, 0.00755336229, 0.102695636, 0.975112259]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:LeftHandThumb1001
     uid: [3398950590, 1608062047, 3808654600, 3182372048]
     active: true
@@ -981,6 +1141,8 @@ Entities:
     scale: [0.999999762, 0.999999881, 0.999999821]
     rot: [-0.286609322, -0.128270149, -0.253541112, 0.914941967]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:LeftHandThumb2001
     uid: [2990018871, 156616053, 2465438541, 90990128]
@@ -993,6 +1155,8 @@ Entities:
     rot: [0.00843382441, -0.00503663998, 0.0128144566, 0.999869645]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:LeftHandThumb3001
     uid: [3740844588, 2446395746, 359438154, 1141925467]
     active: true
@@ -1003,6 +1167,8 @@ Entities:
     scale: [1, 1, 1.00000024]
     rot: [-0.000168264974, -0.00214405358, -0.0783402622, 0.9969244]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:LeftHandThumb4001
     uid: [509416285, 3347082264, 1868522103, 3957882154]
@@ -1015,6 +1181,8 @@ Entities:
     rot: [2.06679083e-08, -3.64733836e-07, -1.85760655e-07, 1]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:LeftHandThumb4_end001
     uid: [1683891552, 3703981082, 1219819807, 1358743943]
     active: true
@@ -1025,6 +1193,8 @@ Entities:
     scale: [1, 1.00000024, 1]
     rot: [2.06679083e-08, -3.64733836e-07, -1.85760655e-07, 1]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:LeftHandIndex1001
     uid: [1248501021, 1706796800, 3947486944, 713207665]
@@ -1037,6 +1207,8 @@ Entities:
     rot: [-0.367111593, -0.0865880176, -0.107130669, 0.919921041]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:LeftHandIndex2001
     uid: [2338498768, 3660477686, 3329038512, 367383804]
     active: true
@@ -1047,6 +1219,8 @@ Entities:
     scale: [1, 1, 0.999999821]
     rot: [-0.545672297, 0.0114398049, -0.0499221236, 0.836432219]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:LeftHandIndex3001
     uid: [136114571, 480102206, 1843768278, 323429455]
@@ -1059,6 +1233,8 @@ Entities:
     rot: [3.01493884e-07, 5.41001064e-05, 0.00150895794, 0.999998927]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:LeftHandIndex4001
     uid: [3286183474, 1757349801, 401156589, 142167205]
     active: true
@@ -1069,6 +1245,8 @@ Entities:
     scale: [1, 1, 0.999999881]
     rot: [3.11611252e-08, 2.91392226e-08, -2.99876568e-08, 1]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:LeftHandIndex4_end001
     uid: [3849065212, 3892009122, 2661785701, 3137749068]
@@ -1081,6 +1259,8 @@ Entities:
     rot: [3.11611252e-08, 2.91392226e-08, -2.99876568e-08, 1]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:LeftHandRing1001
     uid: [1022449529, 577841444, 20785538, 1537619497]
     active: true
@@ -1091,6 +1271,8 @@ Entities:
     scale: [0.99999994, 0.999999881, 0.99999994]
     rot: [-0.540472209, 0.00588765554, -0.0756886974, 0.837929785]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:LeftHandRing2001
     uid: [3021356550, 2230233150, 3821033946, 1993091505]
@@ -1103,6 +1285,8 @@ Entities:
     rot: [-0.657707632, -0.000813330757, -0.0500461012, 0.75160867]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:LeftHandRing3001
     uid: [3832711130, 1635404310, 230281434, 52221808]
     active: true
@@ -1113,6 +1297,8 @@ Entities:
     scale: [0.999999702, 0.999999702, 1]
     rot: [-2.66202119e-06, 0.000485163968, 0.0110843917, 0.999938488]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:LeftHandRing4001
     uid: [2224355708, 1850525026, 3861163970, 3630974471]
@@ -1125,6 +1311,8 @@ Entities:
     rot: [1.71912831e-08, 1.54245665e-08, -1.06720259e-08, 1]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:LeftHandRing4_end001
     uid: [1853644746, 3285292527, 2196839077, 3007887398]
     active: true
@@ -1135,6 +1323,8 @@ Entities:
     scale: [1.00000024, 1, 1]
     rot: [1.71912831e-08, 1.54245665e-08, -1.06720259e-08, 1]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:RightShoulder001
     uid: [2745206388, 1613527966, 2407906154, 3018930966]
@@ -1147,6 +1337,8 @@ Entities:
     rot: [-0.662249386, 0.339395016, -0.510978401, 0.430276662]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:RightArm001
     uid: [1198178558, 2754542179, 1748549581, 1608129968]
     active: true
@@ -1157,6 +1349,8 @@ Entities:
     scale: [1, 1, 0.999999881]
     rot: [-0.409542471, -0.117434777, -0.186439186, 0.885282278]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:RightForeArm001
     uid: [2721572033, 3605191620, 89544798, 2636935014]
@@ -1169,6 +1363,8 @@ Entities:
     rot: [-0.037528526, -0.0334519856, 0.426958174, 0.90287286]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:RightHand001
     uid: [542690794, 2667981024, 127941120, 994085562]
     active: true
@@ -1179,6 +1375,8 @@ Entities:
     scale: [0.999999821, 0.99999994, 0.999999881]
     rot: [0.0693135113, 0.0505894311, -0.0319719762, 0.995798349]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:RightHandThumb1001
     uid: [3490928763, 218738789, 2940870506, 3903424450]
@@ -1191,6 +1389,8 @@ Entities:
     rot: [-0.327365488, 0.0544745438, 0.248781756, 0.909929693]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:RightHandThumb2001
     uid: [3886016070, 2417035544, 3858514857, 984172458]
     active: true
@@ -1201,6 +1401,8 @@ Entities:
     scale: [1, 0.999999881, 0.99999994]
     rot: [-0.00538599305, -0.00472592795, -0.130477816, 0.991425335]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:RightHandThumb3001
     uid: [1043161587, 2146699985, 3050563740, 700115633]
@@ -1213,6 +1415,8 @@ Entities:
     rot: [6.94485425e-06, -0.000155601752, 0.0315113105, 0.999503434]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:RightHandThumb4001
     uid: [3487280898, 2479083004, 1314968823, 2433112491]
     active: true
@@ -1223,6 +1427,8 @@ Entities:
     scale: [1, 1, 1]
     rot: [3.47472792e-07, -7.82987115e-07, -4.47114473e-07, 1]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:RightHandThumb4_end001
     uid: [1002553792, 1765716889, 19320898, 3010182526]
@@ -1235,6 +1441,8 @@ Entities:
     rot: [3.47472792e-07, -7.82987115e-07, -4.47114473e-07, 1]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:RightHandIndex1001
     uid: [1189513557, 64414012, 1184672214, 2994800292]
     active: true
@@ -1245,6 +1453,8 @@ Entities:
     scale: [0.999999881, 1.00000024, 1]
     rot: [-0.214281678, 0.0178241543, 0.123619974, 0.968753755]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:RightHandIndex2001
     uid: [3603594166, 3317284493, 3081842789, 2576213423]
@@ -1257,6 +1467,8 @@ Entities:
     rot: [-0.410662949, -0.00789917074, 0.0128017534, 0.911663234]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:RightHandIndex3001
     uid: [4200338610, 4223759432, 2504440306, 1393382207]
     active: true
@@ -1267,6 +1479,8 @@ Entities:
     scale: [0.999999881, 0.999999821, 0.999999762]
     rot: [-7.9399706e-07, -0.000235915519, -0.00395406038, 0.999992132]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:RightHandIndex4001
     uid: [3758346346, 1384117311, 1135386837, 2964228493]
@@ -1279,6 +1493,8 @@ Entities:
     rot: [8.02660409e-08, -7.62287566e-09, 2.09165698e-08, 1]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:RightHandIndex4_end001
     uid: [3709317969, 1522037714, 3316531385, 1725335268]
     active: true
@@ -1289,6 +1505,8 @@ Entities:
     scale: [1, 1, 0.999999821]
     rot: [8.02660409e-08, -7.62287566e-09, 2.09165698e-08, 1]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:RightHandRing1001
     uid: [3915793329, 2296768253, 1208449950, 219975075]
@@ -1301,6 +1519,8 @@ Entities:
     rot: [-0.316465616, 0.0293053016, 0.0612336583, 0.946171939]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:RightHandRing2001
     uid: [548407590, 959744715, 2615687127, 2697766461]
     active: true
@@ -1311,6 +1531,8 @@ Entities:
     scale: [0.999999881, 0.999999881, 0.999999881]
     rot: [-0.58595711, 0.00189905567, 0.045108825, 0.809083402]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:RightHandRing3001
     uid: [3224179871, 646144220, 2985679500, 2162596152]
@@ -1323,6 +1545,8 @@ Entities:
     rot: [-6.41827835e-09, 0.000186105099, -0.0111131035, 0.99993825]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:RightHandRing4001
     uid: [2944726498, 4083821156, 558323384, 1939797936]
     active: true
@@ -1333,6 +1557,8 @@ Entities:
     scale: [1, 1, 1.00000024]
     rot: [6.93902678e-08, 8.06991141e-10, -9.82359083e-09, 1]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:RightHandRing4_end001
     uid: [1976878090, 640709034, 652810668, 2690388565]
@@ -1345,6 +1571,8 @@ Entities:
     rot: [6.93902678e-08, 8.06991141e-10, -9.82359083e-09, 1]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:LeftUpLeg001
     uid: [3165526911, 2790424332, 2665289995, 2486927592]
     active: true
@@ -1355,6 +1583,8 @@ Entities:
     scale: [0.999791682, 0.999961257, 0.999954462]
     rot: [0.0199566577, -0.269451201, -0.962806702, 0.00108456786]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:LeftLeg001
     uid: [3600259205, 1132553720, 2375438156, 1074568259]
@@ -1367,6 +1597,8 @@ Entities:
     rot: [0.338193685, -0.278540701, 0.0488087237, 0.897584558]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:LeftFoot001
     uid: [923327535, 774076148, 2575120699, 4132538062]
     active: true
@@ -1377,6 +1609,8 @@ Entities:
     scale: [0.999999821, 1, 0.999999881]
     rot: [-0.512318552, -0.0397037603, 0.0684260875, 0.855144024]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:LeftToeBase001
     uid: [4134408165, 4207856409, 2398050167, 4064485514]
@@ -1389,6 +1623,8 @@ Entities:
     rot: [-0.320724607, -0.00757716596, 0.0235201661, 0.946850181]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:LeftToe_End001
     uid: [1336662631, 2748431887, 1538928500, 3477999753]
     active: true
@@ -1399,6 +1635,8 @@ Entities:
     scale: [0.99999994, 1, 1.00000024]
     rot: [8.15943402e-09, 5.39142638e-06, 2.72662142e-08, 1]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:LeftToe_End_end001
     uid: [2727734337, 145584281, 312822650, 2375172339]
@@ -1411,6 +1649,8 @@ Entities:
     rot: [8.15943402e-09, 5.39142638e-06, 2.72662142e-08, 1]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:RightUpLeg001
     uid: [4084528731, 1696023820, 3932730917, 291725699]
     active: true
@@ -1421,6 +1661,8 @@ Entities:
     scale: [1.00000501, 1.00000155, 1.00003159]
     rot: [0.0990271941, 0.111669444, -0.985497832, 0.080731608]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:RightLeg001
     uid: [1804054764, 3858162509, 3215819746, 2722620425]
@@ -1433,6 +1675,8 @@ Entities:
     rot: [0.286618233, -0.0496731438, -0.0196144246, 0.956555188]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:RightFoot001
     uid: [1442665601, 2414458842, 269961464, 1861976805]
     active: true
@@ -1443,6 +1687,8 @@ Entities:
     scale: [0.99999994, 1, 0.999999881]
     rot: [-0.692081094, 0.0409157388, -0.0527500622, 0.718726099]
     components:
+      []
+    script:
       []
   - Entity: mixamorig:RightToeBase001
     uid: [578723322, 1354723652, 2142804989, 2263888785]
@@ -1455,6 +1701,8 @@ Entities:
     rot: [-0.350442916, -0.0703326687, 0.095653668, 0.929028213]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:RightToe_End001
     uid: [3819065997, 4202595374, 3550158173, 1573468055]
     active: true
@@ -1466,6 +1714,8 @@ Entities:
     rot: [3.07962122e-09, 3.87863878e-07, -4.97803505e-08, 1]
     components:
       []
+    script:
+      []
   - Entity: mixamorig:RightToe_End_end001
     uid: [1408644802, 1147119823, 2000383191, 1289621527]
     active: true
@@ -1476,6 +1726,8 @@ Entities:
     scale: [1.00000024, 1.00000024, 0.99999994]
     rot: [3.07962122e-09, 3.87863878e-07, -4.97803505e-08, 1]
     components:
+      []
+    script:
       []
   - Entity: Pilot Avatar
     uid: [1308333173, 3310278901, 2072489855, 272238018]
@@ -1492,6 +1744,8 @@ Entities:
         mesh: Mesh
       - Component: 2
         material: pilot
+    script:
+      []
   - Entity: Tree
     uid: [2650036101, 648505759, 56455176, 2644870154]
     active: true
@@ -1505,6 +1759,8 @@ Entities:
       - Component: 4
         anims:
           []
+    script:
+      []
   - Entity: branch
     uid: [2404734921, 4023633027, 3041271742, 1349763118]
     active: true
@@ -1520,6 +1776,8 @@ Entities:
         mesh: tree.003
       - Component: 2
         material: emptymat
+    script:
+      []
   - Entity: leaves
     uid: [3768621815, 845007772, 3663989013, 546752271]
     active: false
@@ -1535,6 +1793,8 @@ Entities:
         mesh: tree.002
       - Component: 2
         material: Default Material
+    script:
+      []
   - Entity: Cottage_Free
     uid: [2551902112, 830123798, 550529003, 3441743970]
     active: true
@@ -1550,6 +1810,8 @@ Entities:
         mesh: Cottage_Free
       - Component: 2
         material: house
+    script:
+      []
   - Entity: container
     uid: [2230703921, 3815714671, 2493477898, 3192407404]
     active: true
@@ -1568,6 +1830,8 @@ Entities:
       - Component: 8
         mass: 1
         friction: 0.5
+    script:
+      []
   - Entity: Sphere
     uid: [1004212872, 3708395852, 3515216825, 2605072733]
     active: true
@@ -1586,6 +1850,8 @@ Entities:
       - Component: 8
         mass: 1
         friction: 0.5
+    script:
+      []
   - Entity: Cube
     uid: [2500785136, 3953526030, 1284922905, 622827]
     active: true
@@ -1604,6 +1870,8 @@ Entities:
       - Component: 8
         mass: 1
         friction: 0.5
+    script:
+      []
   - Entity: Horse
     uid: [858129701, 2288433104, 3766473300, 393971875]
     active: true
@@ -1618,6 +1886,8 @@ Entities:
         anims:
           - resource: horse_idle
             coeff: 1
+    script:
+      []
   - Entity: Root
     uid: [3695666451, 506474965, 3546640745, 3418784044]
     active: true
@@ -1628,6 +1898,8 @@ Entities:
     scale: [1, 1, 1]
     rot: [-0, -0, -0, 1]
     components:
+      []
+    script:
       []
   - Entity: Hips
     uid: [900746759, 3757783794, 2329159215, 800761979]
@@ -1640,6 +1912,8 @@ Entities:
     rot: [-0.000346244342, -0.0235843826, -0.00441523409, 0.99971211]
     components:
       []
+    script:
+      []
   - Entity: Tail1
     uid: [2688481974, 4090270363, 10616338, 4004411078]
     active: true
@@ -1650,6 +1924,8 @@ Entities:
     scale: [1, 1, 1]
     rot: [-0, -0, -0, 1]
     components:
+      []
+    script:
       []
   - Entity: Tail2
     uid: [3004118391, 1432425271, 3817761034, 2472297760]
@@ -1662,6 +1938,8 @@ Entities:
     rot: [-0, -0, -0.0113129048, 0.999935985]
     components:
       []
+    script:
+      []
   - Entity: Tail3
     uid: [1046080919, 1560459128, 765016810, 2377014476]
     active: true
@@ -1672,6 +1950,8 @@ Entities:
     scale: [1, 1, 1]
     rot: [-0.0026034629, 7.46962396e-05, -0.00465653092, 0.999985754]
     components:
+      []
+    script:
       []
   - Entity: Tail4
     uid: [3745204134, 1481717802, 634439093, 1209303568]
@@ -1684,6 +1964,8 @@ Entities:
     rot: [0.0443754494, 0.00497619063, 0.00590037974, 0.998985171]
     components:
       []
+    script:
+      []
   - Entity: Tail5
     uid: [294036809, 2476445821, 4204848999, 936120446]
     active: true
@@ -1694,6 +1976,8 @@ Entities:
     scale: [1, 1, 1]
     rot: [-0, -0, -0, 1]
     components:
+      []
+    script:
       []
   - Entity: LeftUpLeg
     uid: [1033126665, 1831409372, 3584268744, 3862591821]
@@ -1706,6 +1990,8 @@ Entities:
     rot: [0.087093547, 0.00802457985, -0.00257214694, 0.99616456]
     components:
       []
+    script:
+      []
   - Entity: LeftLeg
     uid: [1226095523, 3817571004, 1584528960, 2368890017]
     active: true
@@ -1716,6 +2002,8 @@ Entities:
     scale: [1, 1, 0.99999994]
     rot: [-0.0873976797, 0.00638642302, -0.00509562623, 0.996140063]
     components:
+      []
+    script:
       []
   - Entity: LeftFoot
     uid: [2799476440, 720178150, 1441854751, 2596943327]
@@ -1728,6 +2016,8 @@ Entities:
     rot: [0.0348755457, -0.00217749714, 0.000647730776, 0.999389172]
     components:
       []
+    script:
+      []
   - Entity: LeftToeBase
     uid: [3870850624, 2951079503, 505948786, 1202561021]
     active: true
@@ -1738,6 +2028,8 @@ Entities:
     scale: [1, 0.99999994, 1]
     rot: [-0.0900003612, 0.0220956802, 0.0122381561, 0.995621443]
     components:
+      []
+    script:
       []
   - Entity: LeftToeBaseEnd
     uid: [1195016466, 1002727904, 3540688980, 2758194897]
@@ -1750,6 +2042,8 @@ Entities:
     rot: [-0, -0, -0, 1]
     components:
       []
+    script:
+      []
   - Entity: RightUpLeg
     uid: [3255497086, 3974400592, 1455933884, 766638815]
     active: true
@@ -1760,6 +2054,8 @@ Entities:
     scale: [0.99999994, 1, 0.99999994]
     rot: [-0.0520402566, 0.00380401243, 0.00970444642, 0.998590648]
     components:
+      []
+    script:
       []
   - Entity: Rightleg
     uid: [2696399223, 3724147049, 3642823500, 3612340144]
@@ -1772,6 +2068,8 @@ Entities:
     rot: [0.162296489, 0.0113817053, -0.0110834586, 0.986614168]
     components:
       []
+    script:
+      []
   - Entity: RightFoot
     uid: [2265434627, 2757995871, 4130664866, 550610328]
     active: true
@@ -1782,6 +2080,8 @@ Entities:
     scale: [0.99999994, 1, 1]
     rot: [-0.222628489, -0.019325804, 0.0138187297, 0.974613905]
     components:
+      []
+    script:
       []
   - Entity: RightToeBase
     uid: [2269349389, 1761244703, 1045232299, 502123151]
@@ -1794,6 +2094,8 @@ Entities:
     rot: [0.11086411, 0.0309602879, -0.00204895809, 0.993351161]
     components:
       []
+    script:
+      []
   - Entity: RightToeBaseEnd
     uid: [2987357363, 4066641695, 3283511662, 2429206523]
     active: true
@@ -1804,6 +2106,8 @@ Entities:
     scale: [1, 1, 1]
     rot: [-0, -0, -0, 1]
     components:
+      []
+    script:
       []
   - Entity: Spine
     uid: [2763029788, 3210513835, 814332126, 1901011845]
@@ -1816,6 +2120,8 @@ Entities:
     rot: [-0, -0, -0, 1]
     components:
       []
+    script:
+      []
   - Entity: Spine1
     uid: [2540047932, 193674937, 1400745131, 2222448867]
     active: true
@@ -1826,6 +2132,8 @@ Entities:
     scale: [1, 1, 0.99999994]
     rot: [0.000330830779, 0.0469965562, -0.000194941807, 0.998894989]
     components:
+      []
+    script:
       []
   - Entity: Neck
     uid: [1932797233, 3755205302, 2973229586, 1688323886]
@@ -1838,6 +2146,8 @@ Entities:
     rot: [6.5967055e-05, -0.0173686016, -0.00732372096, 0.999822378]
     components:
       []
+    script:
+      []
   - Entity: Neck1
     uid: [3719620747, 815886551, 337373353, 2547815339]
     active: true
@@ -1848,6 +2158,8 @@ Entities:
     scale: [1, 1, 1]
     rot: [-0.0244432017, 0.0156943798, -0.000520272704, 0.99957788]
     components:
+      []
+    script:
       []
   - Entity: Neck2
     uid: [3353881631, 1480396524, 412664759, 456818214]
@@ -1860,6 +2172,8 @@ Entities:
     rot: [-0.000477498194, -0.0171510316, 7.11176617e-05, 0.999852777]
     components:
       []
+    script:
+      []
   - Entity: Head
     uid: [527445, 1033121580, 1124205820, 1981731764]
     active: true
@@ -1870,6 +2184,8 @@ Entities:
     scale: [1, 1, 1]
     rot: [0.0433974378, -0.0107644908, -0.000461078802, 0.998999834]
     components:
+      []
+    script:
       []
   - Entity: Jaw
     uid: [1137636089, 3432389249, 240473991, 3415244306]
@@ -1882,6 +2198,8 @@ Entities:
     rot: [-0, -0, -0, 1]
     components:
       []
+    script:
+      []
   - Entity: R_Eye
     uid: [1271902607, 2650046183, 1972278654, 3850868068]
     active: true
@@ -1892,6 +2210,8 @@ Entities:
     scale: [1, 1, 1]
     rot: [-0, -0, -0, 1]
     components:
+      []
+    script:
       []
   - Entity: L_Eye
     uid: [3754232986, 4077028522, 267866360, 3309302422]
@@ -1904,6 +2224,8 @@ Entities:
     rot: [-0, -0, -0, 1]
     components:
       []
+    script:
+      []
   - Entity: MouthTop
     uid: [3814738421, 1442208067, 335275592, 956710178]
     active: true
@@ -1914,6 +2236,8 @@ Entities:
     scale: [1, 1, 1]
     rot: [-0, -0, -0, 1]
     components:
+      []
+    script:
       []
   - Entity: L_Ear
     uid: [1788232223, 407486752, 4008743883, 3867737184]
@@ -1926,6 +2250,8 @@ Entities:
     rot: [-0, -0, -0, 1]
     components:
       []
+    script:
+      []
   - Entity: L_EarTop
     uid: [3253957640, 4134840954, 1450015165, 3693848155]
     active: true
@@ -1936,6 +2262,8 @@ Entities:
     scale: [1, 0.99999994, 0.99999994]
     rot: [-0.442380965, -0, -0, 0.896827281]
     components:
+      []
+    script:
       []
   - Entity: R_Ear
     uid: [74027368, 441727009, 3524508163, 609169436]
@@ -1948,6 +2276,8 @@ Entities:
     rot: [-0, -0, -0, 1]
     components:
       []
+    script:
+      []
   - Entity: R_EarTop
     uid: [765659913, 2909361613, 3513123072, 1311547007]
     active: true
@@ -1958,6 +2288,8 @@ Entities:
     scale: [1, 0.99999994, 0.99999994]
     rot: [-0.442380965, -0, -0, 0.896827281]
     components:
+      []
+    script:
       []
   - Entity: Main
     uid: [567191706, 1840497262, 3021378275, 102438397]
@@ -1970,6 +2302,8 @@ Entities:
     rot: [-0.00184622861, -0, -0, 0.999998331]
     components:
       []
+    script:
+      []
   - Entity: LeftArm
     uid: [1173427710, 3044584702, 3855705080, 526706181]
     active: true
@@ -1980,6 +2314,8 @@ Entities:
     scale: [1, 1, 1]
     rot: [-0.0233211145, -0.0846288204, -0.00506922696, 0.996126771]
     components:
+      []
+    script:
       []
   - Entity: LeftForeArm
     uid: [2335731359, 395948493, 3793133303, 681027516]
@@ -1992,6 +2328,8 @@ Entities:
     rot: [-0, -0, -0, 1]
     components:
       []
+    script:
+      []
   - Entity: LeftHand
     uid: [4274181302, 1633974870, 3439082963, 2010200034]
     active: true
@@ -2002,6 +2340,8 @@ Entities:
     scale: [0.99999994, 1, 0.99999994]
     rot: [0.0224768277, 0.0900944993, 0.0296561625, 0.995237827]
     components:
+      []
+    script:
       []
   - Entity: LeftFinger1
     uid: [3715889572, 895337994, 2098303629, 3163936274]
@@ -2014,6 +2354,8 @@ Entities:
     rot: [-0, -0, -0, 1]
     components:
       []
+    script:
+      []
   - Entity: RightArm
     uid: [2665461950, 2509667489, 2434391425, 2400564886]
     active: true
@@ -2024,6 +2366,8 @@ Entities:
     scale: [0.99999994, 1, 0.99999994]
     rot: [0.0574266277, 0.128394589, 0.00655010575, 0.990037501]
     components:
+      []
+    script:
       []
   - Entity: RightforeArm
     uid: [2312313115, 1970977262, 2087344311, 2240317245]
@@ -2036,6 +2380,8 @@ Entities:
     rot: [-0, -0, -0, 1]
     components:
       []
+    script:
+      []
   - Entity: RightHand
     uid: [3253922153, 1243439661, 339429813, 938804896]
     active: true
@@ -2046,6 +2392,8 @@ Entities:
     scale: [1, 1, 1]
     rot: [-0.0417258218, -0.105996922, 0.00272612809, 0.993486941]
     components:
+      []
+    script:
       []
   - Entity: RightFinger1
     uid: [1432308663, 2584622286, 2808843852, 3674739200]
@@ -2058,6 +2406,8 @@ Entities:
     rot: [-0, -0, -0, 1]
     components:
       []
+    script:
+      []
   - Entity: Volume01
     uid: [1410286285, 245846607, 2279388904, 3478959622]
     active: true
@@ -2068,6 +2418,8 @@ Entities:
     scale: [1, 1, 1]
     rot: [-0, -0, -0, 1]
     components:
+      []
+    script:
       []
   - Entity: Volume02
     uid: [1470121332, 4242265601, 2638120420, 2899296546]
@@ -2080,6 +2432,8 @@ Entities:
     rot: [-0, -0, -0, 1]
     components:
       []
+    script:
+      []
   - Entity: Volume03
     uid: [447139656, 34333790, 4099641430, 3495349967]
     active: true
@@ -2091,6 +2445,8 @@ Entities:
     rot: [-0, -0, -0, 1]
     components:
       []
+    script:
+      []
   - Entity: Volume04
     uid: [4269665932, 139212251, 1341145952, 4139898733]
     active: true
@@ -2101,6 +2457,8 @@ Entities:
     scale: [1, 1, 1]
     rot: [-0, -0, -0, 1]
     components:
+      []
+    script:
       []
   - Entity: Horse
     uid: [2806044741, 2000433731, 1258778455, 2305165204]
@@ -2117,6 +2475,8 @@ Entities:
         mesh: Horse
       - Component: 2
         material: horse
+    script:
+      []
   - Entity: RootNode
     uid: [88846567, 846012080, 803308299, 1140171158]
     active: true
@@ -2130,6 +2490,8 @@ Entities:
       - Component: 4
         anims:
           []
+    script:
+      []
   - Entity: build_bighouse_02_$AssimpFbx$_PreRotation
     uid: [790061, 469591485, 3682930561, 2166001434]
     active: true
@@ -2140,6 +2502,8 @@ Entities:
     scale: [1, 0.99999994, 0.99999994]
     rot: [0.707106709, 0, 0, 0.707106829]
     components:
+      []
+    script:
       []
   - Entity: build_bighouse_02_$AssimpFbx$_Rotation
     uid: [1754493082, 3474720632, 220577651, 4218139756]
@@ -2152,6 +2516,8 @@ Entities:
     rot: [-0.707106829, 0, 0, 0.707106709]
     components:
       []
+    script:
+      []
   - Entity: build_bighouse_02_$AssimpFbx$_GeometricTranslation
     uid: [198487102, 3021916938, 2812877325, 2506859124]
     active: true
@@ -2163,6 +2529,8 @@ Entities:
     rot: [0, 0, 0, 1]
     components:
       []
+    script:
+      []
   - Entity: build_bighouse_02
     uid: [3627468482, 3748732985, 419166043, 3451630463]
     active: true
@@ -2173,6 +2541,8 @@ Entities:
     scale: [1, 1, 1]
     rot: [0, 0, 0, 1]
     components:
+      []
+    script:
       []
   - Entity: build_bighouse_02
     uid: [816071421, 1831854462, 621795169, 288349521]
@@ -2189,6 +2559,8 @@ Entities:
         mesh: build_bighouse_02
       - Component: 2
         material: big_building
+    script:
+      []
   - Entity: build_bighouse_02_1
     uid: [2929815297, 3425219471, 3128373539, 123306551]
     active: true
@@ -2204,6 +2576,8 @@ Entities:
         mesh: build_bighouse_02_1
       - Component: 2
         material: big_building
+    script:
+      []
   - Entity: build_bighouse_02_2
     uid: [89406761, 326616945, 1064549815, 3802052885]
     active: true
@@ -2219,3 +2593,23 @@ Entities:
         mesh: build_bighouse_02_2
       - Component: 2
         material: big_building
+    script:
+      []
+  - Entity: Camera
+    uid: [1537931088, 416892760, 3320651134, 3273282994]
+    active: true
+    static: false
+    view_mask: 18446744073709551615
+    parent: [0, 0, 0, 0]
+    pos: [-23.860836, -5.86294556, -7.52856493]
+    scale: [1, 1, 1]
+    rot: [0, 0.078085497, 0, 0.996945381]
+    components:
+      - Component: 7
+        fov: 45
+        znear: 1
+        zfar: 1000
+        view_mask: 18446744073709551615
+      - Component: 10
+    script:
+      []
