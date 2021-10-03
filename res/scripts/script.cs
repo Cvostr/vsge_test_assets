@@ -20,6 +20,11 @@ class script : EntityScript {
         for(uint i = 0; i < children.Length; i ++){
             Logger.Log("Child " + children[i].GetName());
         }
+
+        GetEntity().AddComponent<MaterialComponent>();
+        GetEntity().AddComponent<MeshComponent>();
+        GetEntity().AddComponent<LightSourceComponent>();
+        GetEntity().GetComponent<LightSourceComponent>().SetColor(new Color(0.5f, 0.5f, 0.5f));
     }
 
     public void OnUpdate(){
@@ -32,6 +37,5 @@ class script : EntityScript {
         if(Input.IsKeyHold(KeyCode.KEY_CODE_A)){
             Logger.Log("A hold");
         }
-        //Logger.Log("update");
     }
 }
