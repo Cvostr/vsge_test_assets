@@ -55,6 +55,7 @@ Entities:
       - Component: 2
         material: material
       - Component: 9
+        trigger: true
         shape: 0
         center: [0, 0, 0]
         size: [1, 1, 1]
@@ -2610,6 +2611,5 @@ Entities:
         znear: 1
         zfar: 1000
         view_mask: 18446744073709551615
-      - Component: 10
     script:
       []
