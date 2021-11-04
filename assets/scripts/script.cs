@@ -7,7 +7,7 @@ class script : EntityScript {
     public void OnStart(){
         test = new Vec3(1, 2, 3);
         Logger.Log("test");
-        GetEntity().SetActive(false);
+        //GetEntity().SetActive(false);
         GetEntity().SetPosition(GetEntity().GetPosition() + test);
         GetEntity().GetParent().SetName("parent");
         Logger.Log(GetEntity().GetParent().GetName());
@@ -24,7 +24,11 @@ class script : EntityScript {
         GetEntity().AddComponent<MaterialComponent>();
         GetEntity().AddComponent<MeshComponent>();
         GetEntity().AddComponent<LightSourceComponent>();
+        GetEntity().AddComponent<AudioSourceComponent>();
         GetEntity().GetComponent<LightSourceComponent>().SetColor(new Color(0.5f, 0.5f, 0.5f));
+
+        GetEntity().GetComponent<AudioSourceComponent>().SetAudioClip(new Resource("dong"));
+        GetEntity().GetComponent<AudioSourceComponent>().Play();
     }
 
     public void OnUpdate(){
@@ -37,5 +41,9 @@ class script : EntityScript {
         if(Input.IsKeyHold(KeyCode.KEY_CODE_A)){
             Logger.Log("A hold");
         }
+    }
+
+    public void OnPreRender(){
+        UiRenderList.DrawText(new Rect(300, 100, 100, 100), 0, "ХУЙ", "arial", new Color(1,1,1,1));
     }
 }

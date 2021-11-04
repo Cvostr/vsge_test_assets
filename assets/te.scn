@@ -1,0 +1,67 @@
+Scene: Untitled
+env_amb_color: [1, 1, 1, 1]
+env_skybox: ""
+Entities:
+  - Entity: Cube
+    uid: [1606066486, 2303824113, 1045775443, 734561427]
+    active: true
+    static: false
+    view_mask: 18446744073709551615
+    parent: [0, 0, 0, 0]
+    pos: [0, 0, 0]
+    scale: [30.9031124, 1, 37.2928696]
+    rot: [0, 0.789755285, 0, 0.613421857]
+    components:
+      - Component: 3
+        mesh_group: ""
+        mesh: Cube
+      - Component: 2
+        material: material
+        cast_shadows: true
+      - Component: 9
+        trigger: false
+        shape: 0
+        center: [0, 0, 0]
+        size: [1, 1, 1]
+    script:
+      []
+  - Entity: Directional Light
+    uid: [1576951097, 3892485755, 266553817, 3873748405]
+    active: true
+    static: false
+    view_mask: 18446744073709551615
+    parent: [0, 0, 0, 0]
+    pos: [0, 0, 0]
+    scale: [1, 1, 1]
+    rot: [0.837855935, 2.23950366e-07, 1.45910079e-07, 0.545887411]
+    components:
+      - Component: 1
+        light_type: 0
+        intensity: 1
+        range: 5.5
+        sp_angle: 12.5
+        color: [1, 1, 1, 1]
+        castShadows: false
+    script:
+      []
+  - Entity: Cube
+    uid: [4056849923, 737371107, 1095473235, 4029627329]
+    active: true
+    static: false
+    view_mask: 18446744073709551615
+    parent: [0, 0, 0, 0]
+    pos: [0, 15.1736374, 0]
+    scale: [1, 1, 1]
+    rot: [0, 0, 0, 1]
+    components:
+      - Component: 3
+        mesh_group: ""
+        mesh: Cube
+      - Component: 2
+        material: Default Material
+        cast_shadows: true
+      - Component: 8
+        mass: 1
+        friction: 0.5
+    script:
+      []

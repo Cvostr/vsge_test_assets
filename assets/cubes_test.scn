@@ -1,5 +1,5 @@
 Scene: Untitled
-env_amb_color: [0.691119671, 0.0133420592, 0.0133420592, 1]
+env_amb_color: [1, 0.999989986, 0.999989986, 1]
 env_skybox: skybox
 Entities:
   - Entity: Cube
@@ -47,7 +47,7 @@ Entities:
     static: false
     view_mask: 18446744073709551615
     parent: [0, 0, 0, 0]
-    pos: [-0.118054628, -11.9433231, -6.30412483]
+    pos: [-0.118054628, -11.9433231, -3.20454454]
     scale: [66.77285, 1, 80]
     rot: [0, 0.99513036, 0, 0.0985414833]
     components:
@@ -56,9 +56,9 @@ Entities:
         mesh: Cube
       - Component: 2
         material: material
-        cast_shadows: false
+        cast_shadows: true
       - Component: 9
-        trigger: true
+        trigger: false
         shape: 0
         center: [0, 0, 0]
         size: [1, 1, 1]
@@ -102,8 +102,8 @@ Entities:
         emrate_max: 500
         direction_min: [-1, -1, -1]
         direction_max: [1, 1, 1]
-        size_min: [1, 1]
-        size_max: [1, 1]
+        size_min: [0.5, 0.5]
+        size_max: [0.5, 0.5]
         size_add: 0
         size_mul: 1
         velocity_min: 8
@@ -180,7 +180,7 @@ Entities:
         sp_angle: 12.5
         color: [1, 1, 1, 1]
         castShadows: true
-        shadowStrength: 0.899999976
+        shadowStrength: 0.800000012
         shadowBias: 0.00400000019
         pcf: 4
     script:
@@ -1828,7 +1828,7 @@ Entities:
     static: false
     view_mask: 18446744073709551615
     parent: [0, 0, 0, 0]
-    pos: [6.88799, -1.35969615, -28.4167767]
+    pos: [6.46782398, -1.35969615, -28.4167767]
     scale: [0.0299999993, 0.0299999993, 0.0299999993]
     rot: [0.451320976, -0.569693685, -0.410170972, 0.550924659]
     components:
@@ -1870,9 +1870,9 @@ Entities:
     static: false
     view_mask: 18446744073709551615
     parent: [0, 0, 0, 0]
-    pos: [0, 0, 0]
+    pos: [0, 0, -0.0659768581]
     scale: [1, 1, 1]
-    rot: [0, 0, 0, 1]
+    rot: [0, 0.561978459, 0, 0.827151656]
     components:
       - Component: 3
         mesh_group: ""
@@ -2627,5 +2627,68 @@ Entities:
         znear: 1
         zfar: 1000
         view_mask: 18446744073709551615
+        target_texture: ""
+    script:
+      []
+  - Entity: Camera
+    uid: [1784836748, 429661015, 609029306, 3954338657]
+    active: true
+    static: false
+    view_mask: 18446744073709551615
+    parent: [0, 0, 0, 0]
+    pos: [0, 0, 18.0878239]
+    scale: [1, 1, 1]
+    rot: [0, 0.813291311, 0, 0.58185637]
+    components:
+      - Component: 7
+        fov: 45
+        znear: 1
+        zfar: 1000
+        view_mask: 18446744073709551615
+        target_texture: rtx
+    script:
+      []
+  - Entity: Point Light
+    uid: [576716349, 3752409966, 2691959046, 1411911707]
+    active: false
+    static: false
+    view_mask: 18446744073709551615
+    parent: [0, 0, 0, 0]
+    pos: [4.30566168, -1.87237024, 1.94801927]
+    scale: [1, 1, 1]
+    rot: [0, 0, 0, 1]
+    components:
+      - Component: 1
+        light_type: 1
+        intensity: 100
+        range: 30
+        sp_angle: 12.5
+        color: [1, 1, 1, 1]
+        castShadows: true
+        shadowStrength: 0.800000012
+        shadowBias: 0.00499999989
+        pcf: 4
+    script:
+      []
+  - Entity: Spot Light
+    uid: [3533440553, 481653907, 3532186803, 3780683535]
+    active: true
+    static: false
+    view_mask: 18446744073709551615
+    parent: [0, 0, 0, 0]
+    pos: [1.71750593, 0, 11.7074051]
+    scale: [1, 1, 1]
+    rot: [0.759018958, -0.221335322, 0.520150125, -0.322979122]
+    components:
+      - Component: 1
+        light_type: 2
+        intensity: 100
+        range: 40
+        sp_angle: 12
+        color: [1, 0, 0, 1]
+        castShadows: true
+        shadowStrength: 0.800000012
+        shadowBias: 0.00100000005
+        pcf: 4
     script:
       []
