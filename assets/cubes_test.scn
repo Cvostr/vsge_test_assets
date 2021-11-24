@@ -1743,7 +1743,7 @@ Entities:
     parent: [186694011, 1344920229, 3883134295, 1663786131]
     pos: [-32.0082741, -11.1510553, -60.9862633]
     scale: [0.477338105, 0.477338463, 0.477338105]
-    rot: [0, -0.313179225, 0, -0.949686468]
+    rot: [0, -0.901931167, 0, -0.431862891]
     components:
       - Component: 3
         mesh_group: Pilot_LP_Animated
@@ -2692,3 +2692,16 @@ Entities:
         pcf: 4
     script:
       []
+  - Entity: Entity
+    uid: [1412510692, 484345796, 284206445, 1234570577]
+    active: true
+    static: false
+    view_mask: 18446744073709551615
+    parent: [0, 0, 0, 0]
+    pos: [0, 0, 0]
+    scale: [1, 1, 1]
+    rot: [0, 0, 0, 1]
+    components:
+      []
+    script:
+      - class: script

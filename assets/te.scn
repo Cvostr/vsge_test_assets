@@ -27,21 +27,24 @@ Entities:
       []
   - Entity: Directional Light
     uid: [1576951097, 3892485755, 266553817, 3873748405]
-    active: true
+    active: false
     static: false
     view_mask: 18446744073709551615
     parent: [0, 0, 0, 0]
-    pos: [0, 0, 0]
+    pos: [-12.9199219, 0, 0]
     scale: [1, 1, 1]
     rot: [0.837855935, 2.23950366e-07, 1.45910079e-07, 0.545887411]
     components:
       - Component: 1
         light_type: 0
-        intensity: 1
+        intensity: 2
         range: 5.5
         sp_angle: 12.5
         color: [1, 1, 1, 1]
-        castShadows: false
+        castShadows: true
+        shadowStrength: 0.600000024
+        shadowBias: 0.00499999989
+        pcf: 4
     script:
       []
   - Entity: Cube
@@ -63,5 +66,227 @@ Entities:
       - Component: 8
         mass: 1
         friction: 0.5
+    script:
+      []
+  - Entity: Tree
+    uid: [4125767731, 3514462813, 778499940, 3196333726]
+    active: true
+    static: false
+    view_mask: 18446744073709551615
+    parent: [0, 0, 0, 0]
+    pos: [0, 0, 0]
+    scale: [0.0964000449, 0.0964000449, 0.0964000449]
+    rot: [0, 0, 0, 1]
+    components:
+      - Component: 4
+        anims:
+          []
+    script:
+      []
+  - Entity: branch
+    uid: [78013866, 2105370455, 909025717, 3094399478]
+    active: true
+    static: false
+    view_mask: 18446744073709551615
+    parent: [4125767731, 3514462813, 778499940, 3196333726]
+    pos: [0, 0, 0]
+    scale: [200, 199.999985, 199.999985]
+    rot: [0, 0, 0, 1]
+    components:
+      - Component: 3
+        mesh_group: untitled
+        mesh: tree.003
+      - Component: 2
+        material: Default Material
+        cast_shadows: true
+    script:
+      []
+  - Entity: leaves
+    uid: [868787870, 3400784297, 1465014451, 636579505]
+    active: true
+    static: false
+    view_mask: 18446744073709551615
+    parent: [4125767731, 3514462813, 778499940, 3196333726]
+    pos: [0, 0, 0]
+    scale: [200, 199.999985, 199.999985]
+    rot: [0, 0, 0, 1]
+    components:
+      - Component: 3
+        mesh_group: untitled
+        mesh: tree.002
+      - Component: 2
+        material: Default Material
+        cast_shadows: true
+    script:
+      []
+  - Entity: RootNode
+    uid: [88102065, 3461009375, 3185644466, 2607013201]
+    active: true
+    static: false
+    view_mask: 18446744073709551615
+    parent: [0, 0, 0, 0]
+    pos: [0, 0, 0]
+    scale: [1, 1, 1]
+    rot: [0, 0, 0, 1]
+    components:
+      - Component: 4
+        anims:
+          []
+    script:
+      []
+  - Entity: Cottage_Free
+    uid: [1972424954, 3086373205, 3684836906, 3633861471]
+    active: true
+    static: false
+    view_mask: 18446744073709551615
+    parent: [88102065, 3461009375, 3185644466, 2607013201]
+    pos: [-1.3310796, 0.684973001, -22.593647]
+    scale: [0.0200000107, 0.0200000405, 0.0193572305]
+    rot: [0, -0.825672925, 0, 0.564148128]
+    components:
+      - Component: 3
+        mesh_group: Cottage_FREE
+        mesh: Cottage_Free
+      - Component: 2
+        material: house
+        cast_shadows: true
+    script:
+      []
+  - Entity: RootNode
+    uid: [633601098, 80171811, 4102011967, 1736237264]
+    active: true
+    static: false
+    view_mask: 18446744073709551615
+    parent: [0, 0, 0, 0]
+    pos: [13.8079004, 0, 11.3906746]
+    scale: [0.0400000215, 0.0400000215, 0.0400000215]
+    rot: [0, 0, 0, 1]
+    components:
+      - Component: 4
+        anims:
+          []
+    script:
+      []
+  - Entity: container_$AssimpFbx$_PreRotation
+    uid: [2690202831, 4140025950, 921636913, 3916662497]
+    active: true
+    static: false
+    view_mask: 18446744073709551615
+    parent: [633601098, 80171811, 4102011967, 1736237264]
+    pos: [0, 0, 0]
+    scale: [1, 0.99999994, 0.99999994]
+    rot: [0.707106709, 0, 0, 0.707106829]
+    components:
+      []
+    script:
+      []
+  - Entity: container
+    uid: [1496687021, 1977844350, 1957893843, 1816208473]
+    active: true
+    static: false
+    view_mask: 18446744073709551615
+    parent: [2690202831, 4140025950, 921636913, 3916662497]
+    pos: [0.00622558594, 0, 19.1181087]
+    scale: [1, 1, 1]
+    rot: [0, 0, 0, 1]
+    components:
+      - Component: 3
+        mesh_group: Container
+        mesh: container
+      - Component: 2
+        material: container
+        cast_shadows: true
+    script:
+      []
+  - Entity: air conditioning_$AssimpFbx$_Translation
+    uid: [2917632319, 2540156076, 975410274, 4132703320]
+    active: true
+    static: false
+    view_mask: 18446744073709551615
+    parent: [633601098, 80171811, 4102011967, 1736237264]
+    pos: [-125.755363, 224.992935, -187.082916]
+    scale: [1, 1, 1]
+    rot: [0, 0, 0, 1]
+    components:
+      []
+    script:
+      []
+  - Entity: air conditioning_$AssimpFbx$_PreRotation
+    uid: [2030315248, 975245845, 3707579340, 2643857832]
+    active: true
+    static: false
+    view_mask: 18446744073709551615
+    parent: [2917632319, 2540156076, 975410274, 4132703320]
+    pos: [0, 0, 0]
+    scale: [1, 0.99999994, 0.99999994]
+    rot: [0.707106709, 0, 0, 0.707106829]
+    components:
+      []
+    script:
+      []
+  - Entity: air conditioning_$AssimpFbx$_Rotation
+    uid: [2850786189, 2328351286, 79456779, 247469585]
+    active: true
+    static: false
+    view_mask: 18446744073709551615
+    parent: [2030315248, 975245845, 3707579340, 2643857832]
+    pos: [0, 0, 0]
+    scale: [0.99999994, 0.99999994, 1]
+    rot: [0, 0, 0.707106769, 0.707106769]
+    components:
+      []
+    script:
+      []
+  - Entity: air conditioning_$AssimpFbx$_GeometricTranslation
+    uid: [1243825547, 482757424, 3261192811, 2728764064]
+    active: true
+    static: false
+    view_mask: 18446744073709551615
+    parent: [2850786189, 2328351286, 79456779, 247469585]
+    pos: [-0.167833328, 0, -23.0499172]
+    scale: [1, 1, 1]
+    rot: [0, 0, 0, 1]
+    components:
+      []
+    script:
+      []
+  - Entity: air conditioning
+    uid: [2518475363, 1930360085, 2697172958, 4026854654]
+    active: true
+    static: false
+    view_mask: 18446744073709551615
+    parent: [1243825547, 482757424, 3261192811, 2728764064]
+    pos: [0, 0, 0]
+    scale: [1, 1, 1]
+    rot: [0, 0, 0, 1]
+    components:
+      - Component: 3
+        mesh_group: Container
+        mesh: air conditioning
+      - Component: 2
+        material: Default Material
+        cast_shadows: true
+    script:
+      []
+  - Entity: Point Light
+    uid: [160009176, 450857018, 2951010001, 3612929091]
+    active: true
+    static: false
+    view_mask: 18446744073709551615
+    parent: [0, 0, 0, 0]
+    pos: [-20.2543449, 7.65068436, 0.546155453]
+    scale: [1, 1, 1]
+    rot: [0, 0, 0, 1]
+    components:
+      - Component: 1
+        light_type: 1
+        intensity: 10
+        range: 50
+        sp_angle: 12.5
+        color: [1, 1, 1, 1]
+        castShadows: true
+        shadowStrength: 0.600000024
+        shadowBias: 0.00499999989
+        pcf: 4
     script:
       []
