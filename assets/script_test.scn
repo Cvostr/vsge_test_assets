@@ -28,6 +28,28 @@ Entities:
       []
     script:
       - class: script
+        fields:
+          - name: b_test
+            type: 2
+            value: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+          - name: test
+            type: 9
+            value: [0, 0, 48, 65, 0, 0, 0, 64, 0, 0, 64, 64, 0, 0, 0, 0]
+          - name: int_test
+            type: 1
+            value: [3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+          - name: float_test
+            type: 1
+            value: [5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+          - name: double_test
+            type: 1
+            value: [13, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+          - name: str_test
+            type: 16
+            value: string from VSGE editor
+          - name: cl
+            type: 14
+            value: [-23, -109, 62, 63, 56, 27, 78, 62, 56, 27, 78, 62, 0, 0, 0, 0]
   - Entity: child1
     uid: [2958612994, 2647124670, 4184726499, 2748515659]
     active: true

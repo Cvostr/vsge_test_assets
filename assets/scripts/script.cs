@@ -7,7 +7,7 @@ class script : EntityScript {
     public int int_test;
     public float float_test;
     public double double_test;
-    protected string str_test;
+    public string str_test;
     public Color cl;
 
     public void OnStart(){
@@ -17,6 +17,7 @@ class script : EntityScript {
         GetEntity().SetPosition(GetEntity().GetPosition() + test);
         GetEntity().GetParent().SetName("parent");
         Logger.Log(GetEntity().GetParent().GetName());
+        Logger.Log(str_test);
 
         Entity child = GetEntity().GetScene().AddNewEntity("new entity from c#");
         GetEntity().AddChild(child);
@@ -52,6 +53,6 @@ class script : EntityScript {
         if(Input.IsKeyHold(KeyCode.KEY_CODE_A)){
             Logger.Log("A hold");
         }
-        UiRenderList.DrawText(new Rect(300, 100, 100, 100), 0, "test TEST тест ТЕСТ", "arial", new Color(1,1,1,1));
+        UiRenderList.DrawText(new Rect(300, 100, 550, 40), 0, str_test, "arial", new Color(1,0,0,1));
     }
 }

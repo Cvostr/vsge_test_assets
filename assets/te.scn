@@ -1,6 +1,6 @@
 Scene: Untitled
 env_amb_color: [1, 1, 1, 1]
-env_skybox: ""
+env_skybox: skybox
 Entities:
   - Entity: Cube
     uid: [1606066486, 2303824113, 1045775443, 734561427]
@@ -55,13 +55,13 @@ Entities:
     parent: [0, 0, 0, 0]
     pos: [0, 15.1736374, 0]
     scale: [1, 1, 1]
-    rot: [0, 0, 0, 1]
+    rot: [0, 0.414041877, 0, 0.910256386]
     components:
       - Component: 3
         mesh_group: ""
         mesh: Cube
       - Component: 2
-        material: Default Material
+        material: sssa
         cast_shadows: true
       - Component: 8
         mass: 1
@@ -74,7 +74,7 @@ Entities:
     static: false
     view_mask: 18446744073709551615
     parent: [0, 0, 0, 0]
-    pos: [0, 0, 0]
+    pos: [0, 0, 14.1837988]
     scale: [0.0964000449, 0.0964000449, 0.0964000449]
     rot: [0, 0, 0, 1]
     components:
