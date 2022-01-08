@@ -47,12 +47,15 @@ class script : EntityScript {
         if(Input.IsKeyPressed(KeyCode.KEY_CODE_W)){
             Logger.Log("W pressed");
         }
+        if(Input.IsKeyPressed(KeyCode.KEY_CODE_U)){
+            Scenes.LoadScene("te", 0);
+        }
         if(Input.IsKeyPressed(KeyCode.KEY_CODE_S)){
             Screen.SetResolution(1600, 900);
         }
         if(Input.IsKeyHold(KeyCode.KEY_CODE_A)){
             Logger.Log("A hold");
         }
-        UiRenderList.DrawText(new Rect(300, 100, 550, 40), 0, str_test, "arial", new Color(1,0,0,1));
+        UiRenderList.DrawText(new Rect(300, 100, 510, 30), 0, str_test, "arial", new Color(1,0,0,1));
     }
 }

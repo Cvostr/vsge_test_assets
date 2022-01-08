@@ -290,3 +290,22 @@ Entities:
         pcf: 4
     script:
       []
+  - Entity: Camera
+    uid: [2588629381, 2741142586, 376654829, 1626031500]
+    active: true
+    static: false
+    view_mask: 18446744073709551615
+    parent: [0, 0, 0, 0]
+    pos: [-21.8013134, 4.08307934, 0]
+    scale: [1, 1, 1]
+    rot: [0, 0, 0, 1]
+    components:
+      - Component: 7
+        fov: 45
+        znear: 1
+        zfar: 1000
+        view_mask: 18446744073709551615
+        target_texture: ""
+      - Component: 10
+    script:
+      []
