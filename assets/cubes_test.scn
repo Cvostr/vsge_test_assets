@@ -75,7 +75,7 @@ Entities:
     rot: [0, 0, 0, 1]
     components:
       - Component: 6
-        clip: file1
+        clip: drong
         volume: 1
         pitch: 1
         loop: false

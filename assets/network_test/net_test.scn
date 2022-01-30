@@ -1,0 +1,25 @@
+Scene: Untitled
+env_amb_color: [1, 0.999989986, 0.999989986, 1]
+env_skybox: skybox
+Entities:
+  - Entity: Entity
+    uid: [860429848, 160843012, 374034756, 2066414841]
+    active: true
+    static: false
+    view_mask: 18446744073709551615
+    parent: [0, 0, 0, 0]
+    pos: [0, 0, 0]
+    scale: [1, 1, 1]
+    rot: [0, 0, 0, 1]
+    components:
+      []
+    script:
+      - class: net_test_controller
+        fields:
+          []
+      - class: server_test
+        fields:
+          []
+      - class: client_test
+        fields:
+          []
