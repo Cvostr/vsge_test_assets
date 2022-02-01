@@ -23,3 +23,21 @@ Entities:
       - class: client_test
         fields:
           []
+  - Entity: Cube
+    uid: [2482571298, 260965175, 708649116, 2053067195]
+    active: true
+    static: false
+    view_mask: 18446744073709551615
+    parent: [0, 0, 0, 0]
+    pos: [0, 0, 0]
+    scale: [1, 1, 1]
+    rot: [0, 0, 0, 1]
+    components:
+      - Component: 3
+        mesh_group: ""
+        mesh: Cube
+      - Component: 2
+        material: Default Material
+        cast_shadows: true
+    script:
+      []
